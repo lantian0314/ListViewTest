@@ -14,10 +14,10 @@
         android:padding="10dp"
          />
 	 
-	 <ListView
+	 <com.example.draglistview.DragListView
         android:id="@+id/DragGroupList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="#00000000" >
-    </ListView>
+    </com.example.draglistview.DragListView>
 </LinearLayout>
