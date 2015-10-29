@@ -3,6 +3,8 @@ package com.example.listviewtest;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.json.Json;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
@@ -27,26 +29,27 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		setData();
-		mAdapter = new GroupListAdapter(this, 0, list);
-		ListView listView = (ListView) findViewById(R.id.GroupList);
-		listView.setAdapter(mAdapter);
-		listView.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int position,
-					long arg3) {
-				switch (position) {
-				case 0:
-					Toast.makeText(getApplicationContext(), "Clicked", 1).show();
-					break;
-
-				default:
-					break;
-				}
-			}
-			
-		});
+		new Json().main();
+		// setData();
+		// mAdapter = new GroupListAdapter(this, 0, list);
+		// ListView listView = (ListView) findViewById(R.id.GroupList);
+		// listView.setAdapter(mAdapter);
+		// listView.setOnItemClickListener(new OnItemClickListener() {
+		//
+		// @Override
+		// public void onItemClick(AdapterView<?> arg0, View arg1, int position,
+		// long arg3) {
+		// switch (position) {
+		// case 0:
+		// Toast.makeText(getApplicationContext(), "Clicked", 1).show();
+		// break;
+		//
+		// default:
+		// break;
+		// }
+		// }
+		//
+		// });
 	}
 
 	private void setData() {
