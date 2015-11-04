@@ -34,7 +34,7 @@ public class ImageGetFromHttp {
 				try {
 					is = entity.getContent();
 					FilterInputStream fit = new FlushInputStream(is);
-					return BitmapFactory.decodeStream(is);
+					return BitmapFactory.decodeStream(fit);
 				} catch (Exception e) {
 					Tools.e(e);
 				} finally {

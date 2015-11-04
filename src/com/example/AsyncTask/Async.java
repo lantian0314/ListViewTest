@@ -9,10 +9,8 @@ import org.apache.http.HttpStatus;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.json.JSONObject;
 
 import android.app.Activity;
-import android.database.CursorJoiner.Result;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;

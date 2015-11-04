@@ -1,15 +1,11 @@
 package com.example.cache;
 
 import com.example.listviewtest.R;
-import com.example.utils.Tools;
 
-import android.R.integer;
-import android.R.string;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.widget.ImageView;
 
 public class MainActivity extends Activity {
@@ -18,9 +14,6 @@ public class MainActivity extends Activity {
 	private ImageFileCache fileCache;
 	private ImageView imageView;
 	private static Bitmap result;
-	private static int count = 0;
-	private static int max_count = 5;
-	private static String murl = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +27,6 @@ public class MainActivity extends Activity {
 	}
 
 	private Bitmap getBitmap(final String url) {
-		murl = url;
 		result = memoryCache.getBitmapFromCache(url);
 		if (result == null) {
 			result = fileCache.getImage(url);
