@@ -31,11 +31,14 @@ public final class R {
         public static final int GroupList=0x7f080001;
         public static final int Iteam_Tag_Text=0x7f080000;
         public static final int ItemText=0x7f08000b;
-        public static final int action_settings=0x7f08000c;
+        public static final int action_settings=0x7f08000f;
+        public static final int btn_trans=0x7f08000d;
         public static final int cache_img=0x7f080006;
         public static final int cancel=0x7f080003;
+        public static final int edit_trans=0x7f08000c;
         public static final int execute=0x7f080002;
         public static final int progress=0x7f080004;
+        public static final int text_result=0x7f08000e;
         public static final int textview=0x7f080005;
     }
     public static final class layout {
@@ -45,6 +48,7 @@ public final class R {
         public static final int drag_list_iteam=0x7f030003;
         public static final int drag_list_main=0x7f030004;
         public static final int list_iteam=0x7f030005;
+        public static final int translation=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f070000;
