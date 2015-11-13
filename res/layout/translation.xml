@@ -34,6 +34,12 @@
         android:id="@+id/text_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:layout_gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
         />
+    <com.example.Translation.GuaGuaLe
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"  
+        android:layout_gravity="center_horizontal"
+        ></com.example.Translation.GuaGuaLe>
 </LinearLayout>

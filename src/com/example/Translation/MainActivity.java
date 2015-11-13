@@ -14,6 +14,7 @@ import com.example.listviewtest.R;
 import com.example.utils.Tools;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -115,5 +116,12 @@ public class MainActivity extends Activity {
 				break;
 			}
 		}
+	};
+	
+	public void onBackPressed() {
+		Intent intent = new Intent(Intent.ACTION_MAIN);
+		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		intent.addCategory(Intent.CATEGORY_HOME);
+		startActivity(intent);
 	};
 }
