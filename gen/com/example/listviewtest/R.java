@@ -21,49 +21,62 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int img1=0x7f020002;
-        public static final int img2=0x7f020003;
-        public static final int img3=0x7f020004;
-        public static final int img4=0x7f020005;
-        public static final int s_title=0x7f020006;
+        public static final int back_you=0x7f020000;
+        public static final int back_zuo=0x7f020001;
+        public static final int bc=0x7f020002;
+        public static final int biankuang=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int icon=0x7f020005;
+        public static final int img1=0x7f020006;
+        public static final int img2=0x7f020007;
+        public static final int img3=0x7f020008;
+        public static final int img4=0x7f020009;
+        public static final int s_title=0x7f02000a;
     }
     public static final class id {
-        public static final int DragGroupList=0x7f08000d;
-        public static final int Drag_Main_Text=0x7f08000c;
-        public static final int Drag_list_iteam_Image=0x7f08000b;
-        public static final int Drag_list_iteam_text=0x7f08000a;
+        public static final int DragGroupList=0x7f080011;
+        public static final int Drag_Main_Text=0x7f080010;
+        public static final int Drag_list_iteam_Image=0x7f08000f;
+        public static final int Drag_list_iteam_text=0x7f08000e;
         public static final int GroupList=0x7f080001;
         public static final int Iteam_Tag_Text=0x7f080000;
-        public static final int ItemText=0x7f08000e;
-        public static final int action_settings=0x7f080016;
-        public static final int btn_search=0x7f080014;
-        public static final int btn_trans=0x7f080010;
+        public static final int ItemText=0x7f080012;
+        public static final int action_settings=0x7f08001d;
+        public static final int btn_search=0x7f08001b;
+        public static final int btn_skill=0x7f08000d;
+        public static final int btn_trans=0x7f080017;
         public static final int cache_img=0x7f080006;
         public static final int cancel=0x7f080003;
         public static final int collage=0x7f080009;
-        public static final int editText=0x7f080013;
-        public static final int edit_trans=0x7f08000f;
+        public static final int editText=0x7f08001a;
+        public static final int edit_trans=0x7f080016;
         public static final int execute=0x7f080002;
+        public static final int imageView1=0x7f080014;
+        public static final int ivgstp=0x7f08000a;
+        public static final int ivmb=0x7f080015;
         public static final int layoutCollage=0x7f080008;
-        public static final int layout_result=0x7f080015;
+        public static final int layout_result=0x7f08001c;
+        public static final int listView=0x7f08000c;
         public static final int progress=0x7f080004;
         public static final int random=0x7f080007;
-        public static final int relativeLayout1=0x7f080012;
-        public static final int text_result=0x7f080011;
+        public static final int relativeLayout1=0x7f080019;
+        public static final int space=0x7f080013;
+        public static final int text_result=0x7f080018;
         public static final int textview=0x7f080005;
+        public static final int tvzj=0x7f08000b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int async=0x7f030001;
         public static final int cache_main=0x7f030002;
         public static final int collage=0x7f030003;
-        public static final int drag_list_iteam=0x7f030004;
-        public static final int drag_list_main=0x7f030005;
-        public static final int list_iteam=0x7f030006;
-        public static final int translation=0x7f030007;
-        public static final int weather=0x7f030008;
+        public static final int daohang=0x7f030004;
+        public static final int drag_list_iteam=0x7f030005;
+        public static final int drag_list_main=0x7f030006;
+        public static final int list_iteam=0x7f030007;
+        public static final int list_item=0x7f030008;
+        public static final int translation=0x7f030009;
+        public static final int weather=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f070000;
